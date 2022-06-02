@@ -1,0 +1,22 @@
+.line-date {
+  display: flex;
+  justify-content: space-around;
+
+  color: white;
+}
+
+.filter-date {
+  font-size: 16px;
+  font-weight: 700;
+  height: 4rem;
+}
+
+.calendary {
+  background: hsl(240, 28%, 88%);
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  font-size: 16px;
+  height: 2rem;
+  border-radius: 5px;
+}

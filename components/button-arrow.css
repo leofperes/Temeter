@@ -1,0 +1,36 @@
+.button-arrow {
+  width: 1.4rem;
+  height: 1.4rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  position: absolute;
+  transform: translateY(80%);
+}
+
+.button-arrow:before {
+  display: block;
+  content: '';
+  width: 0.4rem;
+  height: 0.4rem;
+  box-sizing: border-box;
+  border: 0.4rem solid transparent;
+  border-left: 0.8rem solid white;
+  transform: translateX(0.4rem);
+}
+
+.button-arrow .content {
+  display: none;
+}
+
+.button-arrow.-left::before {
+  transform: rotate(180deg) translateX(1.2rem);
+}
+
+.button-arrow.-left {
+  left: 1.5rem;
+}
+
+.button-arrow.-right {
+  right: 1.5rem;
+}

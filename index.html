@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="components/header.css" />
+    <link rel="stylesheet" href="components/main-menu.css" />
+    <link rel="stylesheet" href="components/main-box.css" />
+    <link rel="stylesheet" href="components/filter-country.css" />
+    <link rel="stylesheet" href="components/line-date.css" />
+    <link rel="stylesheet" href="components/counter-global.css" />
+    <link rel="stylesheet" href="components/button-arrow.css" />
+
+    <title>TEMETER</title>
+  </head>
+
+  <body>
+    <header></header>
+
+    <section class="main-menu">
+      <div class="main-box">
+        <!--definir paddings/size/margin-->
+        <div class="filter-country">
+          <label class="country">Country</label>
+          <select id="dropdown">
+            <option value="">-- Select --</option>
+            <option value="">Global</option>
+            <option value="">Argentina</option>
+            <option value="">Austria</option>
+            <option value="">Brazil</option>
+            <option value="">Canada</option>
+            <option value="">France</option>
+            <option value="">Germany</option>
+            <option value="">India</option>
+            <option value="">Portugal</option>
+            <option value="">Spain</option>
+            <option value="">United States</option>
+          </select>
+        </div>
+
+        <div class="line-date">
+          <div class="filter-date">
+            <label id="firstDate" class="dateInput">
+              From
+              <input class="calendary" value="05/01/2022" type="text" />
+            </label>
+          </div>
+
+          <div class="filter-date">
+            <label id="finalDate" class="dateInput">
+              To
+              <input class="calendary" value="05/27/2022" type="text" />
+            </label>
+          </div>
+        </div>
+
+        <div class="counter-global">
+          <div class="group-euro">
+            <div class="box-number -euro">€</div>
+          </div>
+
+          <div class="group-mi">
+            <div class="box-number">1</div>
+            <div class="box-number">0</div>
+            <div class="box-number">0</div>
+            <span class="number-description">Millions</span>
+          </div>
+
+          <div class="group-mil">
+            <div class="box-number">0</div>
+            <div class="box-number">0</div>
+            <div class="box-number">0</div>
+            <span class="number-description">Thousand</span>
+          </div>
+
+          <div class="group-cen">
+            <div class="box-number">0</div>
+            <div class="box-number">0</div>
+            <div class="box-number">0</div>
+            <span class="number-description">Euros</span>
+          </div>
+
+          <div class="group-cents">
+            <div class="box-number">0</div>
+            <div class="box-number">0</div>
+            <span class="number-description">Cents</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="second-box">
+        <button class="button-arrow -left">
+          <span class="content">Avançar</span>
+        </button>
+        <p class="description">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book.
+        </p>
+        <button class="button-arrow -right">
+          <span class="content">Voltar</span>
+        </button>
+      </div>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+:root {
+  --var-primarycolor: hsla(214, 70%, 38%, 0.952);
+}
+
+.main-box,
+.second-box {
+  padding: 35px 0;
+  height: 100%;
+  width: 1230px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: var(--var-primarycolor);
+  border-radius: 5px;
+}
+
+.second-box {
+  display: flex;
+  margin-top: 1rem;
+  padding: 5px 40px;
+  font-size: 14px;
+  color: white;
+  position: relative;
+}

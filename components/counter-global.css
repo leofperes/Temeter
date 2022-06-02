@@ -1,0 +1,59 @@
+.counter-global {
+  display: flex;
+  height: 12rem;
+  justify-content: center;
+  align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.group-euro,
+.group-mil,
+.group-cen,
+.group-cents,
+.group-mi {
+  display: flex;
+  padding-right: 1rem;
+  flex-wrap: wrap;
+}
+
+.group-mil,
+.group-cen,
+.group-mi {
+  width: 251px;
+}
+
+.group-cents {
+  width: 176px;
+}
+
+.box-number {
+  display: flex;
+  font-size: 115px;
+  font-weight: 600;
+  height: 140px;
+  border-radius: 7px;
+  background-color: hsl(0, 0%, 26%);
+  margin-right: 0.2rem;
+  width: 75px;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow: 0 0 1rem black;
+}
+
+.box-number.-euro {
+  font-size: 90px;
+  position: relative;
+  top: -15px;
+}
+
+.number-description {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+}
